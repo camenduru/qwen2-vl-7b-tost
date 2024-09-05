@@ -1,5 +1,5 @@
 {
-    "input_image_url": "https://files.catbox.moe/esvuoq.jpg",
+    "input_image_url": "https://files.catbox.moe/lg8v5m.jpg",
     "vlm_prompt": "Only write the text",
     "max_new_tokens": 512
 }
