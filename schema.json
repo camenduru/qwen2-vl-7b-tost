@@ -1,0 +1,40 @@
+{
+    "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+    "type": "object",
+    "properties": {
+      "readme": {
+        "type": "string",
+        "title": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",
+        "author": "Jinze Bai, Shuai Bai, Shusheng Yang, Shijie Wang, Sinan Tan, Peng Wang, Junyang Lin, Chang Zhou, Jingren Zhou",
+        "page": "https://qwenlm.github.io/blog/qwen2-vl/",
+        "paper": "https://arxiv.org/abs/2308.12966",
+        "code": "https://github.com/QwenLM/Qwen2-VL",
+        "jupyter": "https://github.com/camenduru/Qwen2-VL-jupyter",
+        "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/qwen2-vl-7b.ipynb",
+        "tags": [
+          "Image to Text"
+        ],
+        "widget": "readme"
+      },
+      "input_image_url": {
+        "type": "string",
+        "description": "Input Image URL",
+        "widget": "textarea"
+      },
+      "vlm_prompt": {
+        "type": "string",
+        "description": "Prompt",
+        "widget": "textarea"
+      },
+      "max_new_tokens": {
+        "type": "integer",
+        "description": "Max New Tokens"
+      }
+    },
+    "buttons": [
+      {
+        "id": "enter",
+        "label": "🥪 Enter"
+      }
+    ]
+  }

@@ -1,0 +1,5 @@
+{
+    "input_image_url": "https://files.catbox.moe/esvuoq.jpg",
+    "vlm_prompt": "Only write the text",
+    "max_new_tokens": 512
+}
