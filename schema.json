@@ -29,6 +29,14 @@
       "max_new_tokens": {
         "type": "integer",
         "description": "Max New Tokens"
+      },
+      "example": {
+        "type": "string",
+        "image1": "https://fakeimg.pl/988x388/282828/eae0d0/?text=input#.png",
+        "image2": "https://files.catbox.moe/lg8v5m.jpg",
+        "image3": "https://fakeimg.pl/988x388/282828/eae0d0/?text=output#.png",
+        "image4": "https://files.catbox.moe/c7q04y.png",
+        "widget": "example"
       }
     },
     "buttons": [
