@@ -1,48 +1,54 @@
 {
-    "$schema": "http://json-schema.org/draft-04/hyper-schema#",
-    "type": "object",
-    "properties": {
-      "readme": {
-        "type": "string",
-        "title": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",
-        "author": "Jinze Bai, Shuai Bai, Shusheng Yang, Shijie Wang, Sinan Tan, Peng Wang, Junyang Lin, Chang Zhou, Jingren Zhou",
-        "page": "https://qwenlm.github.io/blog/qwen2-vl/",
-        "paper": "https://arxiv.org/abs/2308.12966",
-        "code": "https://github.com/QwenLM/Qwen2-VL",
-        "jupyter": "https://github.com/camenduru/Qwen2-VL-jupyter",
-        "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/qwen2-vl-7b.ipynb",
-        "tags": [
-          "Image to Text"
-        ],
-        "widget": "readme"
-      },
-      "input_image_url": {
-        "type": "string",
-        "description": "Input Image URL",
-        "widget": "textarea"
-      },
-      "vlm_prompt": {
-        "type": "string",
-        "description": "Prompt",
-        "widget": "textarea"
-      },
-      "max_new_tokens": {
-        "type": "integer",
-        "description": "Max New Tokens"
-      },
-      "example": {
-        "type": "string",
-        "image1": "https://fakeimg.pl/988x388/282828/eae0d0/?text=input#.png",
-        "image2": "https://files.catbox.moe/lg8v5m.jpg",
-        "image3": "https://fakeimg.pl/988x388/282828/eae0d0/?text=output#.png",
-        "image4": "https://files.catbox.moe/c7q04y.png",
-        "widget": "example"
-      }
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",
+      "author": "Jinze Bai, Shuai Bai, Shusheng Yang, Shijie Wang, Sinan Tan, Peng Wang, Junyang Lin, Chang Zhou, Jingren Zhou",
+      "page": "https://qwenlm.github.io/blog/qwen2-vl/",
+      "paper": "https://arxiv.org/abs/2308.12966",
+      "code": "https://github.com/QwenLM/Qwen2-VL",
+      "jupyter": "https://github.com/camenduru/Qwen2-VL-jupyter",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/qwen2-vl-7b.ipynb",
+      "tags": [
+        "Image to Text"
+      ],
+      "widget": "readme"
     },
-    "buttons": [
-      {
-        "id": "enter",
-        "label": "🥪 Enter"
-      }
-    ]
-  }
+    "upload": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "input_image_url"
+    },
+    "input_image_url": {
+      "type": "string",
+      "description": "Input Image URL",
+      "widget": "textarea"
+    },
+    "vlm_prompt": {
+      "type": "string",
+      "description": "Prompt",
+      "widget": "textarea"
+    },
+    "max_new_tokens": {
+      "type": "integer",
+      "description": "Max New Tokens"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/988x388/282828/eae0d0/?text=input#.png",
+      "image2": "https://files.catbox.moe/lg8v5m.jpg",
+      "image3": "https://fakeimg.pl/988x388/282828/eae0d0/?text=output#.png",
+      "image4": "https://files.catbox.moe/c7q04y.png",
+      "widget": "example"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
