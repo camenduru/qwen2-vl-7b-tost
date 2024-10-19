@@ -19,4 +19,4 @@ https://qwenlm.github.io/blog/qwen2-vl/
 
 
 ### 🏢 Sponsor
-https://runpod.io
+[https://runpod.io](https://runpod.io?ref=iqi9iy8y)
